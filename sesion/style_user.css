@@ -1,0 +1,113 @@
+.cover{
+    top:0;
+    width:100%;
+    height:720px;
+    background-image:url(../images/map_user.png);
+    background-size:cover;
+    background-position: center;
+    position: fixed;
+    
+}
+li,#container{
+    color:#b7b7b7;
+}
+header nav ul li{
+    color:#3d3d3d;
+}
+header{
+    z-index: 99;
+}
+header nav{
+     top:250px;
+    position: absolute;
+    
+}
+ul li:hover{
+    color:white;
+}
+header li{
+    color:black;
+}
+.perfil{
+    height: 190px;
+    margin-top:-160px;
+    border:1px solid #f0f0f0;
+    border-radius: 360px;
+    width: 190px;
+}
+main{
+ 
+    
+    width:100%;
+    height:400px;
+    
+    
+}
+h1{
+    color:black;
+}
+#table1 tr td{
+    padding-bottom:20px;
+    margin:20px;
+}
+footer{
+    margin-top:250px;
+}
+.pagContainer{
+    margin-top:300px;
+    z-index: 99;
+    width:99.9%;
+    height:680px;
+    position: absolute;
+}
+#container{
+    
+    margin:0px 50px 0px 50px;
+    border-radius:25px;
+    padding-bottom:100px;
+}
+#container table{
+    width:1080px;
+    
+    
+    text-align: center;
+    border:50px solid #f0f0f0;
+    border-radius: 24px;
+}
+.tr{
+    
+    width:150px;
+    margin:10px;
+    background-color:#f0f0f0;
+ 
+    height:100px;
+}
+.button2{
+    margin:5px;
+    font-size:20px;
+    width:200px;
+    height:40px;
+    text-align:center;
+    background-color:transparent;
+    box-shadow:0px;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom:1px solid #b7b7b7;
+    font-family: avenir;
+    color:#b7b7b7;
+    transition:.5s;
+}
+.button2:hover{
+    transition:.5s;
+    border-bottom: :none;
+    border:1px inset white;
+}
+.button2:focus{
+     border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom:1px solid #3d3d3d;
+ 
+}
+

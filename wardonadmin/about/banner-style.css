@@ -1,0 +1,17 @@
+#banner{
+    display:inline-block;
+    margin-top:115px;
+    position:fixed;
+    z-index: -1;
+    left:50%;
+    transform: translateX(-50%);
+    width:700px;
+}
+#banner img{
+    width:725px;
+    
+    
+}
+#containerBanner{
+    height:500px
+}

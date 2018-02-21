@@ -1,0 +1,98 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366.43 335.15">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #b6c8bd;
+      }
+
+      .cls-10, .cls-2, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        stroke-width: 10px;
+      }
+
+      .cls-5 {
+        stroke-width: 8px;
+      }
+
+      .cls-6 {
+        stroke-width: 9px;
+      }
+
+      .cls-7 {
+        stroke-width: 14px;
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-9 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-10 {
+        stroke-width: 13px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" y="167.98" width="1366.43" height="167.17"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" width="1366.43" height="167.17"/>
+    </clipPath>
+  </defs>
+  <title>Background</title>
+  <g>
+    <rect class="cls-2" y="167.98" width="1366.43" height="165.5"/>
+    <g class="cls-3">
+      <polygon class="cls-4" points="188.54 216.89 2.07 175.11 51.92 60.08 242.61 102.8 188.54 216.89"/>
+      <rect class="cls-4" x="330.71" y="169.3" width="287.49" height="187.62" transform="translate(737.56 -211.35) rotate(90)"/>
+      <polygon class="cls-4" points="180.29 404.04 -79.92 337.22 -4.04 174.95 256.17 241.77 180.29 404.04"/>
+      <path class="cls-5" d="M996.57,147.58c0-18.26,20-33.06,44.61-33.06s44.61,14.8,44.61,33.06"/>
+      <ellipse class="cls-6" cx="1125.89" cy="99.16" rx="44.55" ry="33.06"/>
+      <ellipse class="cls-5" cx="1159.15" cy="99.16" rx="44.61" ry="33.06"/>
+      <ellipse class="cls-7" cx="1067.12" cy="66.1" rx="44.61" ry="33.06"/>
+      <rect class="cls-4" x="569.22" y="152.56" width="308.41" height="55.28"/>
+      <rect class="cls-4" x="568.27" y="273.31" width="308.41" height="54.55"/>
+      <line class="cls-4" x1="-4.04" y1="174.95" x2="380.64" y2="274.36"/>
+      <line class="cls-4" x1="877.62" y1="150.89" x2="877.62" y2="342.13"/>
+      <rect class="cls-4" x="569.22" y="207.85" width="167.14" height="65.46"/>
+      <rect class="cls-4" x="607.94" y="273.31" width="269.32" height="61.58"/>
+      <line class="cls-4" x1="380.64" y1="273.31" x2="1114.21" y2="273.31"/>
+    </g>
+    <path class="cls-8" d="M1023.27,214.93a20.54,20.54,0,1,0-36.83-.45c.07.15,18.53,36.31,18.53,36.31m0-32.86a12.32,12.32,0,1,1,12.32-12.32A12.33,12.33,0,0,1,1005,217.93Z"/>
+    <circle class="cls-5" cx="477.11" cy="217.93" r="37.66"/>
+  </g>
+  <g>
+    <rect class="cls-2" width="1366.43" height="165.5"/>
+    <g class="cls-9">
+      <polygon class="cls-4" points="256.63 72.5 2.07 7.13 55.31 -106.73 309.87 -41.35 256.63 72.5"/>
+      <rect class="cls-4" x="330.71" y="1.32" width="287.49" height="187.62" transform="translate(569.58 -379.33) rotate(90)"/>
+      <polygon class="cls-4" points="180.29 236.06 -79.92 169.24 -4.04 6.97 256.17 73.79 180.29 236.06"/>
+      <rect class="cls-4" x="569.22" y="-15.42" width="308.41" height="55.28"/>
+      <line class="cls-4" x1="-4.04" y1="6.97" x2="380.64" y2="106.38"/>
+      <line class="cls-4" x1="877.62" y1="-17.09" x2="877.62" y2="174.15"/>
+      <line class="cls-10" x1="495.62" y1="261.57" x2="495.62" y2="452.82"/>
+      <line class="cls-4" x1="477.11" y1="255.59" x2="477.11" y2="446.84"/>
+      <rect class="cls-4" x="569.22" y="39.87" width="167.14" height="65.46"/>
+      <rect class="cls-4" x="802.43" y="105.33" width="74.82" height="61.58"/>
+      <line class="cls-4" x1="380.64" y1="105.33" x2="978.43" y2="105.33"/>
+    </g>
+    <path class="cls-8" d="M160.81,100.42A20.54,20.54,0,1,0,124,100c.07.15,18.53,36.31,18.53,36.31m0-32.86A12.32,12.32,0,1,1,154.83,91.1,12.33,12.33,0,0,1,142.51,103.43Z"/>
+    <circle class="cls-5" cx="1013.41" cy="108.22" r="37.66"/>
+  </g>
+  <line class="cls-4" x1="477.11" y1="255.59" x2="477.11" y2="403"/>
+  <polyline class="cls-4" points="1255.43 494.49 1113.43 494.49 1113.43 166"/>
+</svg>

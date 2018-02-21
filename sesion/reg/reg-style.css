@@ -1,0 +1,136 @@
+@font-face{
+    
+    font-family:avenirlt;
+    src:url("../../fonts/avenirbold.otf");
+}
+@font-face{
+    font-family:avenir;
+    src:url("../../fonts/avenir.otf");
+}
+td{
+  float:left;
+  
+}
+*{
+    margin:0;
+    padding:0;
+    font-family:avenir:
+}
+.video2{
+    margin-top:-50px;
+    width:99.9%;
+    
+}
+input{
+    margin:5px;
+    font-size:20px;
+    width:200px;
+    height:40px;
+    text-align:center;
+    background-color:transparent;
+    box-shadow:0px;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom:1px solid white;
+    font-family: avenir;
+    color:white;
+    transition:.2s;
+}
+input:hover{
+    border-bottom: :none;
+    border:1px inset white;
+}
+input:focus{
+     border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom:1px solid #3d3d3d;
+ 
+}
+.button input:hover{
+    cursor:pointer;
+}
+
+table{
+    max-width: 80vw;
+    align-content: center;
+    text-align: center;
+    padding-left:85px;
+}
+form{
+  
+}
+
+body{
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    font-family:avenir;
+    color:white;
+}
+#logo{
+    transform:translateX(-50%);
+    position:absolute;
+    margin-top:-70px;
+}
+h1{
+    font-family:avenirlt;
+    margin-top:60px;
+    
+}
+select{
+    background-color:transparent;
+    color:white;
+    width:100px;
+}
+select option{
+    background-color:rgba(0,0,0,0.2);
+}
+.txtAdmin{
+    position:absolute;
+    top:0;
+    right:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+.txtAdmin:hover{
+    color:black;
+    
+}
+.txtHome{
+    position: absolute;
+    top:0;
+    left:0; 
+    width:40px;
+    height:40px;
+    transition:.5s; 
+}
+.txtHome:hover{
+    cursor:pointer;
+    background-image: url(../../images/home.gif);
+    background-size: contain;
+    font-size: 0px;
+}
+#photo{
+    width:500px;
+    background-color: transparent;
+    color:white;
+}
+     #container{
+    width:99.9%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+table{
+    padding:0;
+    justify-content: center;
+        }
+footer{
+    bottom:0;
+    width:100%;
+    margin:auto;
+    position:absolute;
+}

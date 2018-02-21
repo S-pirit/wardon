@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.54 23.12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dfdfdf;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #777772;
+        stroke-linecap: round;
+        stroke-width: 0.63px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>Recurso 27</title>
+  <g id="Capa_2" data-name="Capa 2">
+    <g id="Capa_1-2" data-name="Capa 1">
+      <g>
+        <polygon class="cls-1" points="6.11 0.32 27.22 0.32 27.22 22.8 6.11 22.8 6.11 6.75 0.32 0.32 6.11 0.32"/>
+        <line class="cls-2" x1="11.06" y1="5.67" x2="23" y2="5.67"/>
+        <line class="cls-2" x1="11.04" y1="11.75" x2="22.97" y2="11.75"/>
+        <line class="cls-2" x1="11.13" y1="17.64" x2="23.06" y2="17.64"/>
+      </g>
+    </g>
+  </g>
+</svg>
