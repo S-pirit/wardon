@@ -1,0 +1,74 @@
+@font-face{
+    font-family:avenir;
+    src:url("../fonts/avenir.otf");
+    
+}
+@font-face{
+    font-family:cafe;
+    src:url("../fonts/cafenero.ttf");
+}
+*{
+    font-family:avenir;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+header{
+    position:fixed; 
+    width:100vw;
+    height:68px;
+    background-image:url(../images/navbar.png);
+    color:gray;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index: 9;
+}
+#title{
+    width:100vw;
+    position:absolute;
+    top:70px;
+    color:#aaaaaa;
+    font-family: cafe;
+    text-align: center;
+    
+    
+}
+#headContainer{
+    width:98%;
+    margin:auto;
+    top:0;
+    left:0;
+   display: table;
+}
+header #headContainer{
+    display: table;
+}
+
+section{
+    width:100vw;
+    
+}
+#intro{
+    font-size:200%;
+    background-color:#aaaaaa;
+    color:white;
+    padding:8vh 8vw;
+    z-index:4;
+    margin-top:-20px;
+}
+#contenido{
+  margin-top:200px;
+    font-size:120%;
+    background-color:#eeeeee;
+    color:#3d3d3d;
+    padding:8vh 8vw;
+    text-align:center;
+    margin-bottom:400px;
+}
+#imgMap{
+    margin-left:-8vw;
+    width:100vw;
+    margin-top:8vh;
+}

@@ -1,0 +1,41 @@
+.registro{
+    width:100%;
+    height:1000px;
+    margin-top:600px;
+    display:inline-block;
+    z-index: -3;
+}
+.registro .container{
+    
+    width:100%;
+    height:85%;
+    background-image:url(../images/mac.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:auto;
+    
+}
+.regform{
+        display: block;
+        justify-content: center;
+        
+        position: absolute; 
+        margin: auto;
+        left:50%;
+        transform: translateX(-50%);
+        margin: auto;
+        margin-top:230px;
+        width:500px;
+}
+.regform table{
+    margin:auto;
+    
+}
+.regform table td{
+    padding:10px;
+    
+}
+.regform img{
+    margin-bottom:60px;
+}

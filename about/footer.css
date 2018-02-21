@@ -1,0 +1,25 @@
+#footer{
+    height:410px;
+    width:100vw;
+    background-color:#aaaaaa;;
+    color:white;
+    display: flex;
+    justify-content:center;
+   flex-wrap:wrap;
+    
+}
+#footer img{
+     margin-top:10vh;
+    width:20vw;
+    display: inline-block;
+}
+#footer article h1{
+    width:20vw;
+}
+#space{
+    position:absolute;
+    width:100vw;
+    height:250px;
+    background-color:white;
+    transform: translateY(-100%);
+}

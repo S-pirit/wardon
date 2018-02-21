@@ -1,0 +1,34 @@
+header{
+    z-index:99;
+    
+}
+header nav{
+    width:99.9%;
+    list-style-type: none;
+    position:absolute;
+    
+    display:flex;
+    justify-content: center;
+    position:fixed;
+    background-size:cover;
+    transition:.5s;
+    z-index: 99;
+}
+header nav:hover{
+    background-color:rgba(0,0,0,0.3);
+    color:white;
+}
+header ul{
+    width:auto;
+    display:flex;
+    list-style-type: none;
+    
+}
+header li{
+    font-size:25px;
+    color:white;
+    padding:5px 0px 5px 0px; 
+    cursor:pointer;
+    width:250px;
+    transition:.3s;
+}

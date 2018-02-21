@@ -1,0 +1,90 @@
+@import url(css/main.css);
+@import url(css/footer-style.css);
+
+@import url(css/info-style.css);
+@import url(css/registro.css);
+@import url(css/menu.css);
+@font-face{
+    font-family:avenir;
+    src:url("fonts/avenir.otf");
+}
+@font-face{
+    font-family:cafe;
+    src:url("fonts/cafenero.ttf");
+}
+@font-face{
+   font-family:avenirbold;
+    src:url("fonts/avenirbold.otf");
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+.parallax{
+    position: fixed;
+    margin:auto;
+    width:100%;
+    left:0;
+    bottom:0;
+    z-index:-1;
+}
+body{
+    z-index:1;
+    font-family: avenir;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    
+}
+.container{
+    padding-top:50px;
+}
+.title1{
+    display: block;
+    font-size: 60px;
+    font-family:avenirbold;
+    
+}
+.button{
+    font-size:40px;
+    font-family: avenir;
+    background-color: transparent;
+    border:1px solid white;
+    width:250px;
+    height:80px;
+    color:white;
+    border-radius: 20px;
+    cursor:pointer;
+    
+    transition: .3s;
+}
+.button:hover{
+    border-color: #f0f0f0;
+    border-style:inset;
+    font-size:35px;
+    
+    color:#f0f0f0;
+}
+main{
+    z-index: 1;
+}
+.text{
+    width:300px;
+    height:50px;
+    border-radius:10px;
+    border-style: none;
+    font-size: 30px;
+    color:#cccccc;
+    transition:.3s;
+}
+.text:focus{
+    background-color:transparent;
+    border-bottom: 1px solid white;
+    border-radius:0;
+    
+}
+ul li:hover{
+    font-family: avenirbold;
+    font-size:35px;
+}
