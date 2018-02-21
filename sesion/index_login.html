@@ -1,53 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-     <?php
-    session_start();
-    $host="localhost";
-    $username="root";
-    $passsword="";
-    $database="empresa";
-    $message;
-    
-    try
-    {
-        $base=new PDO("mysql:host=localhost; dbname=wardondb", "root", "");
-        $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        
-        if (isset($_POST["btnLogin"]))
-        {
-            if(empty($_POST["email"]) || empty($_POST["pass"]))
-            {
-                $message="Requerimos el nombre de usuario y la contraseña para ingresar ";
-            }
-            else
-            {
-                $consulta="SELECT * FROM usuario WHERE email_user=:mail AND contrasena_user=:password";
-                $sentencia=$base->prepare($consulta);
-                $sentencia->execute(
-                    array
-                    (
-                    "mail"=>$_POST["email"],
-                    "password"=>$_POST["pass"]
-                ));
-                $count = $sentencia->rowCount();
-                if ($count>0)
-                {
-                    $_SESSION["email"] = $_POST["email"];
-                    header("location:profiles/profile.php");
-                }
-                else{
-                    $message="No encontramos registros que coincidan con esta información";
-                }
-            }
-            
-        }
-    }
-    catch(Exception $e)
-    {
-        die("Algo ha salido mal :( Error:".$e->getMessage());
-    }
-    ?>
     <script>
         function Error(){
             alert("<?php echo $message;?>");
